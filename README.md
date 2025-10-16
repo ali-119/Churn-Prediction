@@ -40,8 +40,9 @@ For the rest of the models, the default model mode of the models themselves was 
 
 ## Model Evaluation
 The models were compared using multiple performance metrics:
+  
 **For numerical analyses**
-- classification_report which includes:
+- classification_report which includes:  
 -- Accuracy
 -- Precision
 -- Recall
@@ -65,11 +66,6 @@ Among them, **Adaboost** achieved an accuracy of approximately **81%** on the te
 
 -----
 
-## Model Saving & Usage
-The best-performing model was saved using `joblib` for deployment or future use.
-
------
-
 # Libraries Used
 - pandas
 - matplotlib
@@ -83,7 +79,7 @@ pip install -r requirements.txt
 
 # How to Run
 ## Clone the repository:
-git clone https://github.com/YourUsername/Churn_Prediction.git
+git clone [github](https://github.com/ali-119/Churn-Prediction)
 cd Churn_Prediction
 
 ## Install dependencies:
@@ -100,3 +96,4 @@ Run all cells to train and evaluate the model.
 - Ali
 - field of study: Data Science & Machine Learning Student
 - Email address: ali.hz87980@gmail.com
+- Github address: https://github.com/ali-119
