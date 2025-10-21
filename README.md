@@ -72,9 +72,7 @@ Among them, **Adaboost** achieved an accuracy of approximately **81%** on the te
 - seaborn
 - scikit-learn
 - joblib
-
-**To install all dependencies:**
-<pre> pip install -r requirements.txt </pre>
+- warnings
 
 -----
 
@@ -84,7 +82,7 @@ git clone [github](https://github.com/ali-119/Churn-Prediction)
 cd Churn_Prediction
 
 ## Install dependencies:
-pip install -r requirements.txt
+<pre> pip install -r requirements.txt </pre>
 
 ## Open the Jupyter notebook:
 jupyter notebook notebooks/Churn_Prediction.ipynb
