@@ -71,9 +71,10 @@ Among them, **Adaboost** achieved an accuracy of approximately **81%** on the te
 - matplotlib
 - seaborn
 - scikit-learn
+- joblib
 
 **To install all dependencies:**
-pip install -r requirements.txt
+<pre> ```bash pip install -r requirements.txt ``` </pre>
 
 -----
 
@@ -93,7 +94,7 @@ Run all cells to train and evaluate the model.
 -----
 
 # Author ✍️
-- Ali
-- field of study: Data Science & Machine Learning Student
-- Email address: ali.hz87980@gmail.com
-- Github address: https://github.com/ali-119
+**Author:** Ali  
+**Field:** Data Science & Machine Learning Student  
+**Email:** ali.hz87980@gmail.com  
+**GitHub:** [ali-119](https://github.com/ali-119)
