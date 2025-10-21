@@ -7,10 +7,11 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import classification_report, ConfusionMatrixDisplay
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
+import joblib
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv(r"C:\Users\Banavand\Desktop\File\Telco-Customer-Churn.csv")
+df = pd.read_csv("data/Telco-Customer-Churn.csv")
 
 print(df.head())
 
@@ -360,7 +361,10 @@ sns.barplot(data=df_results, x="Model", y="Accuracy", palette="crest")
 plt.xticks(rotation=45)
 plt.show()
 
+joblib.dump(ad_model, "models/adaboost_model.pkl")
 
 '''
     The AdaBoost model performed best with an accuracy of 81%, and the biggest impact was on the Contract and tenure features.
 '''
+
+
