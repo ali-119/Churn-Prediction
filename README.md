@@ -74,7 +74,7 @@ Among them, **Adaboost** achieved an accuracy of approximately **81%** on the te
 - joblib
 
 **To install all dependencies:**
-<pre> ```bash pip install -r requirements.txt ``` </pre>
+<pre> pip install -r requirements.txt </pre>
 
 -----
 
